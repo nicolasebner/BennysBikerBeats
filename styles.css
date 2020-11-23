@@ -1,0 +1,159 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  overflow-x: hidden;
+}
+
+/* Headings */
+#title {
+  z-index: 1;
+}
+
+.bbb-heading {
+  color: #00e091;
+  font-weight: 900;
+  line-height: 1;
+  font-size: 6rem;
+}
+
+.bbb-subheading {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 12%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #00e091;
+  color: #182722;
+}
+
+.dark-section {
+  background-color: #182722;
+}
+
+.title-seccond {
+  text-align: right;
+}
+
+/* Features */
+
+#features {
+  padding: 80px 0px 40px 0;
+  text-align: center;
+}
+
+.feature-col {
+  text-align: center;
+}
+
+.feature-icon {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  right: 26%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 5rem;
+}
+
+/* Listen */
+
+.fullwidth-player {
+  width: 100%;
+  text-align: center;
+}
+
+.fullwidth-player h3 {
+  color: #fff;
+  padding-top: 80px;
+}
+
+/* .background-bicylce {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%) brightness(90%);
+} */
+
+.song-player {
+  width: 400px;
+  margin: auto;
+  padding: 30px 0 80px;
+}
+
+/* Shapes */
+
+.circle {
+  color: #182722;
+  z-index: 0;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  background: rgb(0, 161, 104);
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(0, 161, 104, 1) 0%,
+    rgba(21, 75, 56, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(0, 161, 104, 1) 0%,
+    rgba(21, 75, 56, 1) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(0, 161, 104, 1) 0%,
+    rgba(21, 75, 56, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00a168",endColorstr="#154b38",GradientType=1);
+  border-radius: 100%;
+  transition: 0.5s;
+}
+
+.circle:hover {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.pos-one {
+  position: absolute;
+  top: -200px;
+  right: -200px;
+}
+
+.pos-two {
+  position: absolute;
+  left: -300px;
+}
+
+.feature-circle {
+  background-color: #182722;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  position: relative;
+  margin: 0 auto 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-circle:hover {
+  color: #00e091 !important;
+}
+
+/* Icons */
+
+.play-button {
+  position: absolute;
+  top: 44%;
+  left: 42%;
+  size: 500%;
+}
